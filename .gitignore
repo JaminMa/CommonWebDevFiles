@@ -1,0 +1,10 @@
+**/npm-debug.log
+**/yarn-error.log
+node_modules
+bower_components
+dist
+public
+.vscode
+.idea
+coverage
+.DS_Store
