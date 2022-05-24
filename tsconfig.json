@@ -1,13 +1,23 @@
 {
   "compilerOptions": {
+    "lib": ["es2021", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "target": "es2021",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "resolveJsonModule": true,
     "rootDir": "./src/",
     "outDir": "./dist/",
+    "sourceMap": true,
+    "inlineSources": true,
     "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "sourceMap": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./src/**/*", "./src/**/*.vue", "./tests/**/*"]
 }
